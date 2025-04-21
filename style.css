@@ -1,0 +1,73 @@
+main{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    transition: transform 0.3s ease;
+    align-items: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+main:hover{
+    transform: scale(1.2);
+}
+
+#inputValue{
+    height: 70px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: rgb(22, 192, 218);
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#choiceSelector{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 208, 220);
+}
+#choiceSelector input, #choiceSelector label{
+    display: inline-block;
+    
+}
+
+#convertbtn{
+    margin-top: 20px;
+    height: 40px;
+    width: 40%;
+    background-color: rgb(133, 208, 220);
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+}
+
+#convertbtn:hover{
+    background-color: rgb(230, 126, 126);
+    
+}
+
+h2{
+    font-size: 30px;
+}
